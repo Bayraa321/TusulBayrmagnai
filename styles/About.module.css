@@ -1,0 +1,137 @@
+.suh {
+  width: 550px;
+}
+.tovchluur {
+  width: 200px;
+}
+.tolgoi {
+  height: 91vh;
+  width: 100vw;
+  /* background-color: black; */
+}
+.biy {
+  height: 150vh;
+  width: 100vw;
+  /* background-color: violet; */
+  /* background-color: red; */
+}
+.wave {
+  height: 100%;
+  width: 100%;
+  /* background-color: blanchedalmond; */
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+}
+.zuun {
+  width: 50%;
+  height: 50%;
+  margin-left: 100px;
+  /* background-color: red; */
+  /* display: flex;
+  justify-content: center; */
+}
+.Baruun {
+  width: 50%;
+  height: 65%;
+  margin-left: -170px;
+  /* background-color: blue; */
+}
+/* .zuun {
+  display: flex;
+} */
+.deed {
+  margin-top: 50px;
+  width: 50%;
+  height: 50%;
+  /* background-color: blue; */
+  display: flex;
+  padding-top: 100px;
+}
+.dood {
+  width: 100%;
+  height: 15%;
+  display: block;
+  background-color: black;
+}
+.bichg {
+  width: 50%;
+  height: 50%;
+  background-color: violet;
+  justify-content: center;
+  align-items: center;
+}
+.hel {
+  height: 3.5%;
+  /* background-color: wheat; */
+  width: 100%;
+  margin-top: -170px;
+}
+.uram {
+  margin-top: 70px;
+  display: flex;
+  height: 20%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.husnegt {
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  border-radius: 5px;
+  height: 85%;
+  width: 22%;
+  background-color: #c3ffff;
+  box-shadow: black;
+}
+.jich {
+  margin-left: 65px;
+}
+.pop {
+  height: 60%;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+}
+.pep {
+  height: 40%;
+  width: 100%;
+  background-color: black;
+}
+.pl {
+  height: 30%;
+  width: 50%;
+  /* background-color: violet; */
+  display: flex;
+}
+.pk {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+}
+.nogoon {
+  height: 100%;
+  width: 60%;
+  background: #40d469;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 40%;
+  /* background: chocolate; */
+  margin-left: -10px;
+}
+.hor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16.5px;
+}
