@@ -90,7 +90,7 @@
 }
 .pop {
   height: 60%;
-  width: 100%;
+  width: 110%;
   /* background-color: red; */
   display: flex;
 }
@@ -107,12 +107,17 @@
 }
 .pk {
   height: 100%;
-  width: 50%;
+  width: 40%;
   /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nogoon {
+  margin-top: 15px;
   height: 100%;
-  width: 60%;
+  width: 700px;
+  /* padding: 50px 60px; */
   background: #40d469;
   display: flex;
   align-items: center;
@@ -121,17 +126,23 @@
   margin-left: 10px;
 }
 .sum {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 40%;
+  width: 100%;
   /* background: chocolate; */
-  margin-left: -10px;
+  margin-left: 10px;
 }
 .hor {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 16.5px;
+}
+.kp {
+  height: 115px;
+  width: 115px;
+  /* background-color: red; */
 }

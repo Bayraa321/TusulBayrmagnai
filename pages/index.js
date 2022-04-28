@@ -8,6 +8,9 @@ import img1 from "../img/Sainu.png";
 import img2 from "../img/Vector.png";
 import img3 from "../img/akar.png";
 import img4 from "../img/cash.png";
+import img5 from "../img/hun.png";
+import img6 from "../img/kok.png";
+import img7 from "../img/mongo.png";
 export default function Home() {
   return (
     <div>
@@ -74,7 +77,7 @@ export default function Home() {
           <h3 className={`${stylessss.jich}`}>Урамшуулал авах алхамууд</h3>
         </div>
         <div className={`${stylessss.uram}`}>
-          <div className={` shadow-lg ${stylessss.husnegt}`}>
+          <div className={` shadow-lg rounded ${stylessss.husnegt}`}>
             <div className={`${stylessss.pop}`}>
               <div className={`${stylessss.pl}`}>
                 <div className={`${stylessss.nogoon}`}>
@@ -84,11 +87,18 @@ export default function Home() {
                   <Image src={img2} />
                 </div>
               </div>
-              <div className={`${stylessss.pk}`}></div>
+              <div className={` d-flex justify-content-center ${stylessss.pk}`}>
+                <Image
+                  // className={`${stylessss.bat}`}
+                  src={img5}
+                  height="115px"
+                  width="115px"
+                />
+              </div>
             </div>
             <div className={`${stylessss.pep}`}></div>
           </div>
-          <div className={` shadow-lg ${stylessss.husnegt}`}>
+          <div className={` shadow-lg rounded ${stylessss.husnegt}`}>
             <div className={`${stylessss.pop}`}>
               <div className={`${stylessss.pl}`}>
                 {" "}
@@ -99,11 +109,13 @@ export default function Home() {
                   <Image src={img3} quality={100} />
                 </div>
               </div>
-              <div className={`${stylessss.pk}`}></div>
+              <div className={`${stylessss.pk}`}>
+                <Image src={img6} />
+              </div>
             </div>
             <div className={`${stylessss.pep}`}></div>
           </div>
-          <div className={` shadow-lg ${stylessss.husnegt}`}>
+          <div className={` shadow-lg rounded ${stylessss.husnegt}`}>
             <div className={`${stylessss.pop}`}>
               <div className={`${stylessss.pl}`}>
                 {" "}
@@ -114,7 +126,11 @@ export default function Home() {
                   <Image src={img4} />
                 </div>
               </div>
-              <div className={`${stylessss.pk}`}></div>
+              <div className={`${stylessss.pk}`}>
+                <div className={`${stylessss.kp}`}>
+                  <Image height="115px" src={img7} width="115px" />
+                </div>
+              </div>
             </div>
             <div className={`${stylessss.pep}`}></div>
           </div>
